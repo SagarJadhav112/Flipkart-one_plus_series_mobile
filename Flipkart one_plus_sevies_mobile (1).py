@@ -7,8 +7,7 @@
 
 
 from  bs4 import BeautifulSoup
-import requests
-import csv
+import requests,csv
 import pandas as pd
 
 
@@ -55,19 +54,11 @@ df
 # In[58]:
 
 
-df.drop_duplicates(inplace=True)
-
 
 # In[59]:
 
 
-df.shape
-
-
-# In[61]:
-
-
-df.loc[df.ProductName.str.contains('OnePlus 10 Pro')]
+# In
 
 
 # In[ ]:
